@@ -4,12 +4,12 @@ const path = require('path');
 const URL = require('url');
 
 
-const OUTPUT_DIR = 'output';
+const OUTPUT_DIR = 'outputs';
 const INPUT_DIR = 'inputs';
-const INPUT_FILE = 'fc-web';
+const INPUT_FILE = 'devcenter';
 
-!fs.existsSync(path.resolve(__dirname, 'input')) && fs.mkdirSync('input');
-!fs.existsSync(path.resolve(__dirname, 'output')) && fs.mkdirSync('output');
+!fs.existsSync(path.resolve(__dirname, 'inputs')) && fs.mkdirSync('inputs');
+!fs.existsSync(path.resolve(__dirname, 'outputs')) && fs.mkdirSync('outputs');
 
 
 const construnctRules = (rule, isExtension=false) => {
