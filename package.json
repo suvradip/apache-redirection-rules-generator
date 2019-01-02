@@ -12,7 +12,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "csv": "^2.0.0",
-    "csv-parser": "^1.12.1",
+    "csv-parser": "^2.1.0",
     "request": "^2.85.0",
     "request-debug": "^0.2.0"
   }
